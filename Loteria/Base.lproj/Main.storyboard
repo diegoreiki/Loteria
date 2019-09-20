@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="pt2-pQ-JvI">
-                                <rect key="frame" x="40.5" y="235.5" width="294" height="196"/>
+                                <rect key="frame" x="40.5" y="245" width="294" height="196"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="lEb-uz-r94">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="90"/>
@@ -124,11 +124,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DMQ-ty-bw7" secondAttribute="trailing" constant="16" id="462-GJ-mvY"/>
                             <constraint firstItem="Dd5-0t-r0a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CDu-TK-NlW"/>
                             <constraint firstItem="Ioq-At-Hoi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FQa-y0-WAB"/>
+                            <constraint firstItem="pt2-pQ-JvI" firstAttribute="top" secondItem="Ioq-At-Hoi" secondAttribute="bottom" constant="50" id="FiE-gg-2PB"/>
                             <constraint firstItem="Dd5-0t-r0a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IPg-tg-FVC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DMQ-ty-bw7" secondAttribute="bottom" constant="30" id="Ipr-lf-CKL"/>
-                            <constraint firstItem="pt2-pQ-JvI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N3G-fl-n4W"/>
+                            <constraint firstItem="pt2-pQ-JvI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJo-0b-3nM"/>
                             <constraint firstItem="Ioq-At-Hoi" firstAttribute="top" secondItem="Dd5-0t-r0a" secondAttribute="bottom" constant="16" id="W1c-LW-6Ad"/>
-                            <constraint firstItem="pt2-pQ-JvI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aZB-Zn-064"/>
                             <constraint firstItem="DMQ-ty-bw7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="arb-4A-GMa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ioq-At-Hoi" secondAttribute="trailing" constant="16" id="dGh-c1-K3X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mqG-fQ-PsO" secondAttribute="trailing" constant="16" id="eTX-C8-YL6"/>
